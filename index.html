@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Adding External CSS file -->
+    <link rel="stylesheet" href="TODOproject.css">
+
+    <!-- Adding Font Awesome Kit -->
+    <script src="https://kit.fontawesome.com/54783ca5ac.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="container">
+
+        <div id="inner-container">
+
+            <div id="input-box-container">
+                <div id="input-box">
+                    <!-- Copy Icon -->
+                    <div id="Copy-container">
+                        <i class="fa-solid fa-file fa-xl " id="Copy" style="color: gray;"></i>
+                    </div>
+                    
+                    <!-- Input Box -->
+                    <input type="text" id="textbox" placeholder="Type TODO List">
+                    <!-- Adding Icon -->
+
+                    <div id="add-container">
+                        <i class="fa-solid fa-circle-plus fa-2xl" style="color: gray;" id="add"></i>
+                    </div>
+                    
+                </div>
+                
+
+                <div id="complete-detail">
+
+                    <span id="complete-all-tasks">
+                        <i class="fa-solid fa-check-double" style="color: gray;"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span style="color: gray;">Complete All Tasks</span>
+                    </span>
+
+                    <span id="clear-complete">
+                        Clear Complete
+                    </span>
+                </div>
+            </div>
+
+            <!-- List Container -->
+            <div id="list-container" >
+                <!-- List Item -->
+               <!--  <div class="list-item" >
+                    
+                     <div class="round">
+                        <input type="checkbox" checked id="task1" data-id="12"/>
+                        <label for="task1"></label>
+                    </div>
+
+                    
+                    <div class="task-name">
+                        Gyming
+                    </div>
+
+                   
+                    <div class="delete" data-id="${task.id}">
+                        <i class="fa-solid fa-trash-can fa-xl" style="color: rgb(230, 9, 64);"></i>
+                    </div> 
+                </div> -->
+
+                
+            </div>
+            
+        </div>
+
+        <!-- End of list container -->
+
+        <div id="tasks-counter-container">
+            <!-- <span class="counter" >
+                Task Left
+            </span>
+
+            <span id="complete-uncomplete">
+                <b>All</b>&nbsp;Uncomplete&nbsp;Complete
+            </span> -->
+        </div>
+    </div>
+    
+    <script src="TODOproject.js" type="text/javascript"></script>
+</body>
+</html>
